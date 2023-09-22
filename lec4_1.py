@@ -220,7 +220,7 @@ a = [3, 5, 6, 9]
 
 # def sum_num(num):
 #     return sum(num)
-# num = []
+# nums = []
 
 # for i in range(1, 6):
 #     innum = int(input(f"{i} 번째 숫자 입력 : "))
