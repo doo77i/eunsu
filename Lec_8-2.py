@@ -244,7 +244,7 @@ print(len(cmp))
 # print(len(decmp))  
 
 # 파일 압축
-"""import zipfile 
+""" import zipfile 
 data = "To be or not to be, That is a question!" * 10000
 fp1 = open("a.txt", "w")
 fp1.write(data)
@@ -269,9 +269,7 @@ with zipfile.ZipFile('txt.zip', 'w') as myzip:
      
 
 with zipfile.ZipFile('txt.zip') as myzip:
-    myzip.extractall()
-
-"""
+    myzip.extractall() """
 
 
 
@@ -280,6 +278,8 @@ with zipfile.ZipFile('txt.zip') as myzip:
 
 
 
+
+""" 
 import tarfile
 data = "To be or not to be, That is a question!" * 10000
 fp1 = open("a.tar", "w")
@@ -298,13 +298,13 @@ fp3.close()
 with tarfile.open('txt.tar', 'w') as mytar:
     mytar.add('a.tar')
     mytar.add('b.tar')
-    mytar.add('c.tar')
+    mytar.add('c.tar') """
     
 # with tarfile.open('txt.tar') as mytar:
 #     mytar.extractall()
     
 #실행 아규먼트 
-""" import argparse  
+import argparse  
 import functools
 parser = argparse.ArgumentParser()
 parser.add_argument('-a', '--add', type=int, nargs='+', metavar='N', help='더할 숫자')
@@ -313,8 +313,8 @@ parser.add_argument('-m', '--mul', type=int, nargs='+', metavar='N', help='곱�
 args = parser.parse_args
     
     
-if args.add:
+""" if args.add:
     print("총합 %d입니다." % functools.reduce(lambda x, y: x + y, args.add))
 if args.mul:
-    print("총곱 %d입니다." % functools.reduce(lambda x, y: x * y, args.mul))    """
-    
+    print("총곱 %d입니다." % functools.reduce(lambda x, y: x * y, args.mul))   
+     """
